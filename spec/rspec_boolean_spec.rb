@@ -5,7 +5,7 @@ describe RspecBoolean do
     expect(RspecBoolean::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'does the dirty job of testing boolean values' do
+    expect(false).to be_boolean
   end
 end

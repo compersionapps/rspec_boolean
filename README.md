@@ -1,12 +1,11 @@
 # RspecBoolean
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rspec_boolean`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to rspec_boolean, with this gem you can use "be_boolean" expectation to your tests
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile in the group :development, :test:
 
 ```ruby
 gem 'rspec_boolean'
@@ -16,21 +15,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rspec_boolean
-
 ## Usage
 
-TODO: Write usage instructions here
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```ruby
+expect(false).to be_boolean
+```
 
 ## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rspec_boolean.
+Fork the repo, send bug reports and pull requests on GitHub at https://github.com/compersionapps/rspec_boolean.
 
