@@ -1,4 +1,3 @@
-require "rspec"
 RSpec::Matchers.define :be_boolean do |expected|
   match do |actual|
     return true if actual == true
